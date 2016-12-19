@@ -97,6 +97,10 @@ a, a:hover {
   .article-header .article-header__content {
     line-height: 18px; }
 
+header .mobile-nav {
+  display: inline-block;
+  font-size: 25px;
+  display: none; }
 header .logo {
   float: left; }
   header .logo a {
@@ -162,7 +166,7 @@ header .header-content {
     .portfolio .portfolio-content .portfolio-content__item .portfolio-content__item__img .portfolio-content__item__img__link {
       display: none;
       position: absolute;
-      top: 0;
+      top: -2px;
       width: 100%;
       height: 100%;
       background-color: rgba(0, 0, 0, 0.7);
@@ -317,5 +321,59 @@ footer {
   .wrapper {
     margin-left: 15px;
     margin-right: 15px; } }
+@media only screen and (max-width: 991px) {
+  .services .services__block__item {
+    margin-bottom: 30px; }
+
+  .contact-us .contact-us__form-block {
+    margin-top: 30px; }
+    .contact-us .contact-us__form-block #contact-us__form .contact-us__form-submit {
+      float: left; } }
+@media only screen and (max-width: 768px) {
+  .banner {
+    margin-top: 55px;
+    padding-top: 0;
+    height: 432px; }
+
+  header .banner {
+    margin-top: 35px; }
+  header nav {
+    background: rgba(0, 0, 0, 0.8);
+    display: block;
+    margin: 0 -15px;
+    position: fixed;
+    z-index: 5;
+    padding: 0;
+    margin-top: -55px;
+    width: 100%; }
+    header nav .mobile-nav {
+      margin: 15px;
+      display: inline-block; }
+    header nav .logo {
+      float: right;
+      margin-top: 15px;
+      padding-right: 15px; }
+    header nav .top-navigation {
+      display: none;
+      margin: 0;
+      float: none; }
+      header nav .top-navigation .top-navigation__list {
+        margin: 0;
+        float: none;
+        padding: 5px 0;
+        display: block;
+        border-top: 1px solid #fff; }
+        header nav .top-navigation .top-navigation__list .top-navigation__list__link {
+          width: 100%;
+          padding: 10px 15px; }
+  header .header-content {
+    margin: 0;
+    padding-top: 100px; }
+    header .header-content h1 {
+      font-size: 28px;
+      margin-bottom: 75px; } }
+@media only screen and (max-width: 768px) {
+  header .header-content h1 {
+    font-size: 28px; } }
 
 /*# sourceMappingURL=main.css.map */
