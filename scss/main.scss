@@ -382,16 +382,16 @@ footer {
     }
     header {
         .banner {
-            margin-top: 35px;
+           
         }
         nav {
             background: rgba(0, 0, 0, 0.8);
             display: block;
-            margin: 0 -15px;
+            margin: -55px -15px 0 -15px;
             position: fixed;
             z-index: 5;
             padding: 0;
-            margin-top: -55px;
+            
             width: 100%;
             .mobile-nav {
                 margin: 15px;
